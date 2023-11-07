@@ -1,0 +1,4 @@
+# leetcode solutions
+### personal study repository
+(mostly in JAVA)
+* TwoSum
