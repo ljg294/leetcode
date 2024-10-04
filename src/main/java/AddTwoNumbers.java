@@ -18,6 +18,42 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 public class AddTwoNumbers {
+
+    public static void main(String[] args) {
+        // Test Case 1: l1 = [2,4,3], l2 = [5,6,4]
+        ListNode l1 = createList(new int[]{2, 4, 3});
+        ListNode l2 = createList(new int[]{5, 6, 4});
+
+        AddTwoNumbers solution = new AddTwoNumbers();
+        ListNode result = solution.addTwoNumbers(l1, l2);
+
+        // Print the result
+        printList(result);  // Output should be [7, 0, 8]
+    }
+
+    // Helper method to create a linked list from an array
+    public static ListNode createList(int[] nums) {
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+        for (int num : nums) {
+            current.next = new ListNode(num);
+            current = current.next;
+        }
+        return dummy.next;
+    }
+
+    // Helper method to print the linked list
+    public static void printList(ListNode node) {
+        while (node != null) {
+            System.out.print(node.val);
+            if (node.next != null) {
+                System.out.print(" -> ");
+            }
+            node = node.next;
+        }
+        System.out.println();
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(0);
         ListNode resultListNode = l3;
@@ -43,18 +79,3 @@ public class AddTwoNumbers {
         return l3.next;
     }
 }
-
-// Example 1:
-//Input: nums = [2,7,11,15], target = 9
-//Output: [0,1]
-//Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
-
-//Example 2:
-//
-//Input: nums = [3,2,4], target = 6
-//Output: [1,2]
-
-//Example 3:
-//
-//Input: nums = [3,3], target = 6
-//Output: [0,1]

@@ -2,6 +2,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 class LongestSubstringWithoutRepeatingCharacters {
+
+    public static void main (String[] args){
+        // Create an instance of the class
+        LongestSubstringWithoutRepeatingCharacters solution = new LongestSubstringWithoutRepeatingCharacters();
+
+        // Input string
+        String s = "abcabcbb";
+
+        // Call the method and print the result
+        int result = solution.lengthOfLongestSubstring(s);
+        System.out.println("Output: " + result);
+    }
+
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
         int maxLength = 0;
