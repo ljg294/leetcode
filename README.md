@@ -9,3 +9,4 @@
 * LongestCommonPrefix
 * FindMedianSortedArrays
 * LongestPalindromicSubstring
+* ValidParentheses
