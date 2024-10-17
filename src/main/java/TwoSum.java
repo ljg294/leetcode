@@ -1,5 +1,3 @@
-import java.sql.Array;
-
 public class TwoSum {
 
     public static void main(String[] args){
