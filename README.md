@@ -12,3 +12,4 @@
 * [ValidParentheses.java](src/main/java/ValidParentheses.java)
 * [MergeTwoLists.java](src/main/java/MergeTwoLists.java)
 * [RemoveDuplicates.java](src/main/java/RemoveDuplicates.java)
+* [RemoveElement.java](src/main/java/RemoveElement.java)
