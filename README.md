@@ -13,3 +13,4 @@
 * [MergeTwoLists.java](src/main/java/MergeTwoLists.java)
 * [RemoveDuplicates.java](src/main/java/RemoveDuplicates.java)
 * [RemoveElement.java](src/main/java/RemoveElement.java)
+* [FindTheIndexOfTheFirstOccurrenceInAString.java](src/main/java/FindTheIndexOfTheFirstOccurrenceInAString.java)
