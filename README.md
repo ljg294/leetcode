@@ -14,3 +14,4 @@
 * [RemoveDuplicates.java](src/main/java/RemoveDuplicates.java)
 * [RemoveElement.java](src/main/java/RemoveElement.java)
 * [FindTheIndexOfTheFirstOccurrenceInAString.java](src/main/java/FindTheIndexOfTheFirstOccurrenceInAString.java)
+* [SearchInsert.java](src/main/java/SearchInsert.java)
