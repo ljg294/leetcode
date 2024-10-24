@@ -15,3 +15,4 @@
 * [RemoveElement.java](src/main/java/RemoveElement.java)
 * [FindTheIndexOfTheFirstOccurrenceInAString.java](src/main/java/FindTheIndexOfTheFirstOccurrenceInAString.java)
 * [SearchInsert.java](src/main/java/SearchInsert.java)
+* [LengthOfLastWord.java](src/main/java/LengthOfLastWord.java)
